@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Gitapi from './components/gitapi';
+import Form from './components/form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Gitapi />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
